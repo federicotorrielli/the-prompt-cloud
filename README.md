@@ -75,7 +75,7 @@ Organize, search, sort, and retrieve your prompts efficiently.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://your-repo-url/the-prompt-cloud.git
+   git clone https://github.com/federicotorrielli/the-prompt-cloud.git
    cd the-prompt-cloud
    ```
 
@@ -89,7 +89,6 @@ Organize, search, sort, and retrieve your prompts efficiently.
    - Create a `.env` file (copy from `.env.example`).
    - Set your `DATABASE_URL` in the `.env` file.
      _(See [Prisma connection URL docs](https://www.prisma.io/docs/reference/database-reference/connection-urls) for format)_.
-     _(Example setup steps for Arch Linux are available in the development conversation history)_.
    - Run database migrations:
 
      ```bash
